@@ -1,0 +1,38 @@
+.entry-content p {
+    display: inline-block;
+}
+
+.entry-content .add-to-cart {
+    color: #242526;
+    border: solid 2px #242526;
+}
+
+.entry-content .add-to-cart {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
+a.add-to-cart {
+    position: relative;
+    top: 15px;
+}
+
+.entry-content .add-to-cart:hover {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+
+.entry-content .add-to-cart:hover {
+    color: #ffffff;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
